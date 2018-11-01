@@ -1,0 +1,72 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+/* .banner-header {
+    height: px;
+    background-color:  #FFC300;
+} */
+
+.banner-footer div{
+    height: 5px;
+    background-color: #C70039;
+    top: 10px;
+}
+
+/* .img-banner {
+  height: 50%;
+  width: 100%;
+}
+
+.footer li{
+  display: inline-block;
+}
+
+#footer {
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  text-align: center;
+  display: block;
+  top: 1rem; 
+   position:absolute; 
+  bottom: 0;
+  width: 100%;
+  height: -1rem;
+} */
+
+.footer {
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: relative ;
+  top: 2rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(165, 156, 156);
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+
+
+
+
+
+
+

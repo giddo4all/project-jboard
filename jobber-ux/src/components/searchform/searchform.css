@@ -1,0 +1,40 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
+@charset "UTF-8";
+
+
+* {
+    /* left: 1rem; */
+}
+
+.search-btn{
+     /* background: #03412C; */
+    font-size:1rem;
+    text-decoration: none;
+    border: 2px solid #eee;
+    box-shadow: 0, 1px 1px 0 #ccc;
+    -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px 10px 9px 10px;
+  color: #347774;
+  border: 1px solid transparent;
+  z-index: 2;
+  
+  }
+
+  .search{
+    position: relative;
+    padding: 1rem 1rem 1rem 0;
+    color: white;
+
+  }
+
+  label {
+      padding-right: 1.5rem;
+  }
+
+  input {
+      text-align: left;
+  }

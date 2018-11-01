@@ -1,0 +1,241 @@
+https://www.youtube.com/watch?v=ZKwrOXl5TDI
+
+Main Tutorial Mongo + Node
+https://www.youtube.com/watch?v=Do_Hsb_Hs3c
+
+
+npm install --save express
+npm install -g express-generator
+npm install jade
+express <nameOfSite>
+
+http://www.newthinktank.com/2016/01/nodejs-mongodb-tutorial/
+
+https://codeburst.io/an-introduction-to-web-scraping-with-node-js-1045b55c63f7
+
+
+Dynamically generated content from procedures leveraging AJAX, client-side logic, and other async procedures
+
+parsing dynamic content from AJAX, client-side logic, and other async procedures
+
+https://codeshare.io/5zbdRk
+
+db.test_users.remove( {"_id": ObjectId("4d512b45cc9374271b02ec4f")});
+
+db.joblist.createIndex({"title": 1, "joburl":1}, {unique:true, sparse:true});
+db.products.createIndex( { "item": 1, "stock": 1 } )
+
+$ mongod --dbpath /c/Users/gideon/Google\ Drive/New\ Drive/Project/jboard/samplesite/data
+
+Mongo Closed Connection
+https://stackoverflow.com/questions/26346089/mongodb-server-sockets-closed-no-fix-found?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+http://callbackhell.com/
+https://github.com/maxogden/art-of-node#callbacks
+
+RETURN DATA FROM FUNCTION
+https://stackoverflow.com/questions/7255956/return-results-from-a-function-javascript-nodejs
+
+PASS ARG TO CALL BACK
+https://samwize.com/2013/09/01/how-you-can-pass-a-variable-into-callback-function-in-node-dot-js/
+
+Lecture
+https://www.youtube.com/watch?v=TlB_eWDSMt4
+
+"crawl": "concurrently --kill-others \"npm install\" \"node index.js\" \"node chv.js\""
+
+
+module.export.log = log;
+module.export = log;
+const logger = require('./logger')
+
+
+phantom & Casper JSON Tutorial
+https://www.youtube.com/watch?v=Cqic-ZKPFyk
+https://www.youtube.com/watch?v=NES9RtRLWpY
+
+http://phantomjs.org/examples/
+C:\Users\gideo\AppData\Roaming\npm\node_modules\casperjs\bin\casperjs
+
+C:\Users\gideo\jobboard\jboard\gleaner
+
+
+page.settings.userAgent = "Mozilla/5.0  (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+Enhancement
+
+* Tag got job group/category
+* search function using search bar
+* grouping by country
+* JSON object for expiration
+
+
+Website
+http://westafricancareers.com
+
+
+**/samplesite/data/** text eol=lf
+
+
+block footer
+  footer
+    li
+      a(href="#") Team
+    li
+      a(href="#") Privacy
+    p
+      | company name <br> 
+      | &copy; 2014, All Rights Reserved
+
+
+  git config --global user.email "gideonaina@yahoo.com"
+  git config --global user.name "Gideon Aina"
+
+Get files names only containing the pattern -"samplsite" (i.e option -l) and do this recursive (option -r - nesting down all directory).
+Replace the occurence of that string with with "jobber" 
+  sed -i 's@samplesite@jobber@g' $(grep -rl .  -e '[.]*samplesite[.]*')
+              grep -rnw .  -e '[.]*samplesite[.]*' | sed -i 's@samplesite@jobber@g'
+            sed -i 's@samplesite@jobber@g' < $(grep -r .  -e '[.]*samplesite[.]*')
+            
+            find . -type f -name '*.js' -print0 | xargs -0 grep -l "custom_integration"
+            sed -i 's@samplesite@jobber@g' test.log
+
+
+  BOWER
+  https://www.youtube.com/watch?v=lAUncPg_FVw
+
+
+  Sending command line arguments to npm script
+https://stackoverflow.com/questions/11580961/sending-command-line-arguments-to-npm-script?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+Exposing your local Node.js app to the world
+https://www.pluralsight.com/guides/exposing-your-local-node-js-app-to-the-world
+
+How to map your domain and subdomains to Amazon EC2 instance or Amazon route 53
+https://www.youtube.com/watch?v=pjA9MyzUJNQ
+
+Best practices when running Node.js with port 80 (Ubuntu / Linode)
+sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
+
+AWS Commands
+***************&&&&&&&&&&&&&&&&&&&&&&&&&&&&&************************
+
+sudo yum update -y
+sudo yum install -y git
+touch mongodb-org-3.6.repo
+
+echo "[mongodb-org-3.6]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.6/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc" | sudo tee /etc/yum.repos.d/mongodb-org-3.6.repo
+
+sudo yum install -y mongodb-org
+sudo service mongod start
+sudo chkconfig mongod on
+(mongo && db.joblist.createIndex({"title": 1, "joburl":1}, {unique:true, sparse:true});)
+curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
+sudo yum install -y nodejs
+ git clone https://github.com/giddo4all/jobboard.git
+(cd jobboard/jboard/mower && npm run crawl)
+(cd jobboard/jboard/samplesite && npm start)
+
+
+
+
+CRON JOB
+
+find -name "node"
+
+*/1 * * * * /usr/bin/npm --prefix /home/ec2-user/jobboard/jboard/mower run crawl
+
+
+/usr/bin/npm --prefix /home/ec2-user/jobboard/jboard/test run test
+
+crontab -e
+
+CRON Syntax
+https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/
+Test CRON
+http://cron.schlitt.info/
+
+See Email from cron job
+cat /var/spool/mail/ec2-user
+
+30 11 * * * 
+
+http://www.applydirect.com.au/
+
+
+RENDER JADE
+https://codepen.io/Mildwind/pen/rOebvr
+
+PUT AD ON Website
+https://www.youtube.com/watch?v=eRruBVPYr9w
+
+Call back vs Promises
+https://www.youtube.com/watch?v=ubUQfeWSYk4
+https://medium.com/dev-bits/writing-neat-asynchronous-node-js-code-with-promises-32ed3a4fd098
+
+How to Use Javascript Promises - Power Explanation
+https://www.youtube.com/watch?v=104J7_HyaG4
+
+
+Getting Started with Headless Chrome in Node.js
+https://www.sitepoint.com/headless-chrome-node-js/
+
+Coding pad with JS runtime 
+https://codestitch.io/e2a5c5c6#
+
+Web Chat
+https://tlk.io/
+
+Render HTML and CSS
+http://scratchpad.io/fantastic-mind-5649
+
+Render HTML + CSS + JS
+https://codepen.io
+
+React Video
+https://www.youtube.com/watch?v=v0t42xBIYIs
+
+React Router Complete Guide (Route, Link, NavLink, Redirect, Prompt )
+https://www.youtube.com/watch?v=XRfD8xIOroA
+
+Fullscreen Video Background With HTML & CSS
+https://www.youtube.com/watch?v=Xy3GlrddZFI
+
+Background Video Overlay
+https://coverr.co/tags/nature
+
+React & Express Starter Pack For Full Stack Development (Express + React)
+https://www.youtube.com/watch?v=v0t42xBIYIs
+
+Fullscreen Video Background With HTML & CSS
+https://www.youtube.com/watch?v=Xy3GlrddZFI
+
+Color Red
+#C70039
+
+#34495E
+
+Video Used: Collage of Workers
+https://www.shutterstock.com/video/clip-31907596-collage-different-types-workers-such-as-doctor
+
+HTML+CSS
+http://jsfiddle.net/uZx4L/95/
+
+
+Hack Reactor Meeting
+https://www.lewagon.com/
+https://www.fullstackreact.com/30-days-of-react/
+codewars.com
+https://jonathandavidlewis.github.io/hrr26-subclass-dance-party/
+https://ankiweb.net/about
+
+
+
+
+NGROK with Slack
+https://api.slack.com/tutorials/tunneling-with-ngrok

@@ -1,0 +1,22 @@
+#form_add_new_job {
+    padding-left: 2rem;
+}
+
+.postjob {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
+
+span {
+    padding-left: 1rem;
+    text-align: left;
+}
+
+input {
+    padding-left: 2rem;
+    text-align: left;
+}

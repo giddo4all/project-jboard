@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h3.
+    Jobs
+  span Search
+  span &nbsp;
+  input#input_name(type="text", placeholder=" search keyword", name="search")
+  ul
+    each job, i in joblist
+      br 
+      li#job_list_item
+        img.logo#IdName(src="#{job.image}" alt="#{job.company}")
+        a(href=job.joburl) #{job.title}
+    br 
+    br 
