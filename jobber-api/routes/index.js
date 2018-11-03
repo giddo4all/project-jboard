@@ -8,7 +8,7 @@ var properties = PropertiesReader('../properties.file');
 var url = properties.get('dev.url.local.sample');
 
 
-
+//Test Route
 router.get('/api/customers', (req, res) => {
   const customers = [
     {id: 1, firstName: 'John', lastName: 'Doe'},
