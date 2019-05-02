@@ -3,7 +3,7 @@
 This is me hacking Javascript. It is just a simple project I intend to use to learn Javascript.
 
 The simple app does web scraping (for Jobs) by making the least number of HTTP request (Usually a single request) 
-to the target website). During deployment, a CRON job is setup to run daily. The data gathered from these website are "treated" and stored in mongo DB.
+to the target website). During deployment, a CRON job that goes out to fetch job from these target site is setup to run daily. The data gathered from these website are "treated" and stored in mongo DB.
 Some endpoints are used by the client to retrieve and display this data.
 
 The frameworks/technologies stack used are:
